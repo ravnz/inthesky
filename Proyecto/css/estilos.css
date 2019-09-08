@@ -1,0 +1,144 @@
+body{
+    font: 15px Arial;
+    padding: 0;
+    margin: 0;
+    color: black;
+    line-height: 1;
+}
+
+
+/*Estilos globales*/
+#contenedor{
+    width: 1000px; 
+    margin: 0 auto; 
+    overflow: hidden;
+    text-align: left;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.boton1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.contenido_wrap{
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 998;
+}
+
+/* Encabezado */
+header{
+    background-color: #cfcfcf ;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #912222;
+}
+
+header a{
+    color: #030505;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header img{
+    padding-top: 10px;
+    margin: 0;
+}
+
+header nav{
+    float:right;
+    margin-top: 0px;
+}
+
+.marca{
+    height: 100px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header .resaltado, header .actual a{
+    color: #0c1011;
+    font-weight: bold;
+
+}
+
+header a:hover{
+    color: #070f0b;
+    font-weight: bold;
+}
+
+/*Slider de Imagen*/
+.slider{
+    width: 95%;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+
+/*Registro*/
+input{
+    float: left;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+label{
+    width: 400px;
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+button{
+    clear: both;
+    float: left;
+    margin-left: 100px;
+    width: 120px;
+    height: 50px;
+}
+
+select{
+    float: left;
+}
+
+.formulario{
+    padding:2px;
+    cursor:pointer;
+    display:block;
+    width:300px;
+    margin: 0 auto;
+    text-align:left;
+}
